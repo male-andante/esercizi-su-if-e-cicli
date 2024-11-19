@@ -119,7 +119,7 @@ let shippingCost
 const SCONTOBLACKFRIDAY = 0.2
 let prezzoScontato = totalShoppingCart - (totalShoppingCart* SCONTOBLACKFRIDAY)
 
-if (totalShoppingCart > 50) {
+if (totalShoppingCart > 50 || prezzoScontato > 50) {
   shippingCost = 0
   console.log("La spedizione e' gratuita")
 } else {
