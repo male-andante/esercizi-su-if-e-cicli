@@ -114,7 +114,7 @@ console.log(`Il totale da pagare e' di ${finalCheckout} euro`)*/
   Modifica la risposta precedente includendo questa nuova promozione nell'algoritmo, determinando, usando l'algoritmo del codice precedente, se le spedizioni siano gratuite oppure no e e calcolando il totale.
 */
 
-let totalShoppingCart = 80
+/*let totalShoppingCart = 80
 let shippingCost
 const SCONTOBLACKFRIDAY = 0.2
 let prezzoScontato = totalShoppingCart - (totalShoppingCart* SCONTOBLACKFRIDAY)
@@ -127,7 +127,7 @@ if (totalShoppingCart > 50 || prezzoScontato > 50) {
   console.log("La spedizione costa 10 euro")
 }
 let finalCheckout = totalShoppingCart + shippingCost
-console.log(`Il totale da pagare e' di ${finalCheckout} euro`)
+console.log(`Il totale da pagare e' di ${finalCheckout} euro`)*/
 
 
 /*  ESERCIZIO EXTRA 4
@@ -141,3 +141,26 @@ console.log(`Il totale da pagare e' di ${finalCheckout} euro`)
 /* ESERCIZIO EXTRA 5
   Scrivi un algoritmo che iteri i numeri da 1 a 100, stampandoli in console. Se un valore tuttavia è multiplo di 3 (operatore modulo!), stampa al suo posto la parola "Fizz" e se il numero è multiplo di 5, stampa "Buzz". Se le condizioni si verificano entrambe, stampa "FizzBuzz".
 */
+
+/*for (let i = 1; i <= 100; i++) {
+  let risultatoDaStampare = i
+  if (i % 3 === 0 && i % 5 === 0) {
+    risultatoDaStampare = "FizzBuzz"
+  } else if (i % 3 === 0) {
+    risultatoDaStampare = "Fizz"
+  } else if (i % 5 === 0) {
+    risultatoDaStampare = "Buzz"
+  }
+  console.log(risultatoDaStampare)
+}
+
+for (let i=1; i<=100; i++){
+if (i % 3 === 0 && i % 5 === 0){
+  console.log("FizzBuzz")
+} else if (i % 3 === 0){
+  console.log("Fizz")
+} else if (i % 5 === 0){
+  console.log("Buzz")
+} else {
+  console.log(i)
+}*/
